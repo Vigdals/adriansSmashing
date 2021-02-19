@@ -1,0 +1,11 @@
+curl -d '{ "auth_token": "YOUR_AUTH_TOKEN", "text": "1,2,3,4,5,6,7" }' \http://<%=request.host%>:<%=request.port%>/widgets/lottotall
+
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="lottotall" data-view="Text" data-title="Lottotall: " data-text="" data-moreinfo="Sist oppdatert: "></div>
+    </li>
+
+curl -d '{ "auth_token": "YOUR_AUTH_TOKEN", "text": "Hey, Look what I can do!" }' \http://192.168.80.148:3030/widgets/welcome
+
+
+curl -d '{ "auth_token": "YOUR_AUTH_TOKEN", "text": "1,2,3,4,5,6,7" }' \http://192.168.80.148:3030/widgets/welcome
+
